@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Workspace
-   version = "1.0">
-   <FileRef
-      location = "self:Prueba 1.xcodeproj">
-   </FileRef>
-</Workspace>
+import UIKit
+
+
+    var numeros = 0...100
+    for s in numeros{
+    if s>=30 && s<=40{
+    print ("\(s)\tViva Swif")
+    }else if (s % 5) == 0{
+    print ("\(s)\tBingo")
+    }else if s % 2 == 0{
+    print ("\(s)\tPar")
+    }else{
+    print("\(s)\timpar")
+    }
+}
